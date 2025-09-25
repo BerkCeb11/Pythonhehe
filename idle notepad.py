@@ -48,7 +48,7 @@ print(l) # each i 1-6 is turned into 3.14.. then turned to int (3) then 'str'
 employee_number = "sentinel"
 parts = " "
 while employee_number != "":
-valid = True
+valid = False
       employee_number = input("Enter employee number (ddd-dd-dddd) : ")
       parts = employee_number.split('-') # splits employee_numbers into 3 parts by '-'
       if len(parts) == 3:
